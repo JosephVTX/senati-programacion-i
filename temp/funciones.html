@@ -1,0 +1,211 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/funciones.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="main relative">
+        <header class="header">
+            <img class="header__image" src="img/header.jpg" alt="Header Image">
+        </header>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="condicionales.html">Condicionales</a></li>
+
+                <li><a href="funciones.html">Funciones</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Contactenos</a></li>
+            </ul>
+        </nav>
+
+        <section class="section_">
+
+            <ul id="menu" class="flex gap-4">
+                <li><a href="#area_cuadrado">Area Cuadrado</a></li>
+                <li><a href="#area_circulo">Area Circulo</a></li>
+                <li><a href="#area_triangulo">Area Triangulo</a></li>
+                <li><a href="#area_rectangulo">Area Rectangulo</a></li>
+                <li><a href="#area_cilindro">Area Cilindro</a></li>
+                <li><a href="#area_esfera">Area Esfera</a></li>
+                <li><a href="#area_cono">Area Cono</a></li>
+                <li><a href="#area_prisma">Area Prisma</a></li>
+                <li><a href="#area_piramide">Area Piramide</a></li>
+            </ul>
+            <div class="section__content mb-10 border h-[240px]">
+                <h2 class="section__title text-2xl">Bienvenido al Sistema Joseph Vega</h2>
+                <p class="renderPermitir"></p>
+                <p class="renderFecha mb-2"></p>
+                <img class="perfil rounded-full shadow-[0_0_10px_#fff]" src="img/perfil.jpg" alt="Perfil">
+
+            </div>
+            <div class="section__content">
+
+                <h2 class="section__title text-2xl">SUMA</h2>
+
+                <p class="suma_num"></p>
+                <p class="suma_num"></p>
+                <p class="suma_resultado font-bold text-xl pt-2 text-gray-300"></p>
+
+
+            </div>
+
+            <div class="section__content">
+
+                <h2 class="section__title text-2xl">RESTA</h2>
+
+                <p class="resta_num"></p>
+                <p class="resta_num"></p>
+                <p class="resta_resultado font-bold text-xl pt-2 text-gray-300"></p>
+
+
+            </div>
+
+            <div class="section__content pb-2">
+
+                <h2 class="section__title text-2xl">MULTIPLICACIÓN</h2>
+
+                <p class="multi_num"></p>
+                <p class="multi_num"></p>
+                <p class="multi_resultado font-bold text-xl pt-2 text-gray-300"></p>
+
+
+            </div>
+
+            <div class="section__content">
+
+                <h2 class="section__title text-2xl">DIVISION</h2>
+
+                <p class="divi_num"></p>
+                <p class="divi_num"></p>
+                <p class="divi_resultado font-bold text-xl pt-2 text-gray-300"></p>
+
+
+            </div>
+
+            <div class="section__content">
+
+                <h2 class="section__title text-2xl">RESTO</h2>
+
+                <p class="resto_num"></p>
+                <p class="resto_num"></p>
+                <p class="resto_resultado font-bold text-xl pt-2 text-gray-300"></p>
+
+
+            </div>
+
+            <div id="area_cuadrado" class="section__content">
+
+                <h2 class="section__title text-2xl">AREA DE UN CUADRADO</h2>
+                <img class="h-[240px]" src="https://t1.uc.ltmcdn.com/es/posts/7/1/2/como_encontrar_el_perimetro_de_un_cuadrado_1217_paso_1_600.webp" alt="">
+                <p class="area_cuadrado_num"></p>
+                <p class="area_cuadrado_resultado"></p>
+
+
+            </div>
+
+            <div id="area_circulo" class="section__content">
+
+                <h2 class="section__title text-2xl">AREA DE UN CIRCULO</h2>
+                <img class="h-[240px]" src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-del-area-de-un-circulo.png" alt="">
+                <p class="area_circulo_num"></p>
+                <p class="area_circulo_resultado"></p>
+
+
+            </div>
+
+            <div id="area_triangulo" class="section__content">
+
+                <h2 class="section__title text-2xl">AREA DE UN TRIANGULO</h2>
+                <img class="h-[240px]" src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-del-area-de-un-triangulo-isosceles.png" alt="">
+                <p class="area_triangulo_num1"></p>
+                <p class="area_triangulo_num2"></p>
+                <p class="area_triangulo_resultado"></p>
+
+            </div>
+
+            <div id="area_rectangulo" class="section__content">
+
+                <h2 class="section__title text-2xl">AREA DE UN RECTANGULO</h2>
+                <img class="h-[240px]" src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-de-area-de-un-rectangulo.png" alt="">
+                <p class="area_rectangulo_num1"></p>
+                <p class="area_rectangulo_num2"></p>
+                <p class="area_rectangulo_resultado"></p>
+
+            </div>
+
+            <div id="area_cilindro" class="section__content">
+
+                <h2 class="section__title text-2xl">AREA DE UN CILINDRO</h2>
+                <img class="h-[240px]" src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/area-de-un-cilindro.png" alt="">
+                <p class="area_cilindro_num1"></p>
+                <p class="area_cilindro_num2"></p>
+                <p class="area_cilindro_resultado"></p>
+
+            </div>
+
+            <div id="area_esfera" class="section__content mt-[200px]">
+
+                <h2 class="section__title text-2xl">AREA DE UNA ESFERA</h2>
+                <img class="h-[240px]" src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/formula-area-de-una-esfera.png" alt="">
+                <p class="area_esfera_num1"></p>
+                <p class="area_esfera_resultado"></p>
+
+            </div>
+
+            <div id="area_cono" class="section__content mt-[200px]">
+
+                <h2 class="section__title text-2xl">AREA DE UNA CONO</h2>
+                <img class="h-[240px]" src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/area-de-un-cono.png" alt="">
+                <p class="area_cono_num1"></p>
+                <p class="area_cono_num2"></p>
+                <p class="area_cono_resultado"></p>
+
+            </div>
+
+            <div id="area_prisma" class="section__content mt-[200px]">
+
+                <h2 class="section__title text-2xl">AREA DE UN PRISMA</h2>
+                <img class="h-[240px]" src="https://www.areasyvolumenes.net/wp-content/uploads/2022/08/area-de-un-prisma-triangular-regular.png" alt="">
+                <p class="area_prisma_num1"></p>
+                <p class="area_prisma_num2"></p>
+   
+                <p class="area_prisma_resultado"></p>
+
+            </div>
+
+            <div id="area_piramide" class="section__content mt-[200px]">
+
+                <h2 class="section__title text-2xl">AREA DE UNA PIRAMIDE</h2>
+                <img class="h-[240px]" src="https://www.neurochispas.com/wp-content/uploads/2021/04/formula-del-area-superficial-de-piramides-cuadradas.png" alt="">
+                <p class="area_piramide_num1"></p>
+                <p class="area_piramide_num2"></p>
+   
+                <p class="area_piramide_resultado"></p>
+
+            </div>
+
+        </section>
+        
+        
+        <footer class="footer">
+            Footer
+        </footer>
+        
+        <a href="#menu"><img class="fixed bottom-2 right-2 bg-white rounded-full h-[80px]" src="img/arrow.svg" alt=""></a>
+    </main>
+    <script src="js/funciones.js"></script>
+    <script src="js/areas.js"></script>
+</body>
+
+</html>

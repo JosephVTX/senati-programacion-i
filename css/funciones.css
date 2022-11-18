@@ -1,0 +1,61 @@
+:root {
+  --height-question: 180px;
+}
+
+body {
+  background-color: #e5e5f7;
+  background: url(https://c.wallhere.com/photos/70/cb/space_dark-83953.png!d)
+    no-repeat;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mb {
+  margin-bottom: 1rem;
+}
+
+.main {
+  border-left: 2px rgba(255, 255, 255, 0.2) solid;
+}
+
+.section__title {
+  padding: 0.5rem 0;
+  color: rgb(210, 210, 210);
+  margin-bottom: 0.5rem;
+}
+
+.section_ {
+  width: 1200px;
+  overflow-y: scroll;
+  height: 636px;
+  color: rgb(210, 210, 210);
+}
+.section__content:nth-last-child(n + 10):not(1) {
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+  height: var(--height-question);
+}
+
+::-webkit-scrollbar {
+  appearance: none;
+  background: var(--color-hover);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+}
+#submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s;
+}
+
+#submenu:hover {
+  max-height: 240px;
+  transition: max-height 0.8s;
+}
+
+#item-funciones:hover ~ #submenu {
+  max-height: 240px;
+  transition: max-height 0.8s;
+}

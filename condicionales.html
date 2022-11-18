@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/condicionales.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img class="header__image" src="img/header.jpg" alt="Header Image" />
+      </header>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="condicionales.html">Condicionales</a></li>
+
+          <li><a href="funciones.html">Funciones</a></li>
+          <li><a href="#">Novedades</a></li>
+          <li><a href="#">Contactenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="section_ relative">
+        <div class="section__content">
+          <h2 class="section__title text-2xl">Pregunta 1</h2>
+          <p class="[max-width:100ch] text-justify mb-4">
+            1. Construir un programa que calcule y muestre por pantalla las
+            raices de la ecuacion dde segundo grado de coeficientes reales. El
+            programa debe diferenciar los diferentes casos que puedan surgir: la
+            existencia de dos raices reales distintas, de dos daices o reales
+            iguales, Además, saber si son negativos positivas. Nota: se
+            recomienda el empleo de sentencias if-else anidadas.
+          </p>
+          <img
+            class="h-[140px] mb-6 rounded-lg"
+            src="https://okdiario.com/img/2017/07/02/ecuacion-de-segundo-grado-1.jpg"
+          />
+        </div>
+        <div class="section__content">
+          <h2 class="section__title text-2xl">Pregunta 2</h2>
+          <p class="[max-width:100ch] text-justify mb-4">
+            2. Desarrolles un algoritmo que permita leer tres valores
+            almmacenarlos en las variables num1, num2, num3 respectivamente. El
+            algoritmo debe imprimir si son iguales, y cual es el mayor de ellos.
+          </p>
+        </div>
+        <div class="section__content">
+          <h2 class="section__title text-2xl">Pregunta 3</h2>
+          <p class="[max-width:100ch] text-justify mb-4">
+            3.Escribe un programa que responda a un usuario que quiere comprar
+            un helado en una concidad marca de comida rápida cuanto le costará
+            en funcion del topping que elija.
+          </p>
+
+          <select id="helado" class="p-2">
+            <option value="0">Helado sin topping</option>
+            <option value="1">Topping de Oreo</option>
+            <option value="2">Topping de KitKat</option>
+            <option value="3">Topping de Brownie</option>
+            <option value="4">Topping de Lentejitas</option>
+          </select>
+          <button id="btnComprar" class="p-2 bg-gray-400 rounded-md">
+            COMPRAR
+          </button>
+
+          <div id="renderHelado"></div>
+        </div>
+        <div class="section__content">
+          <h2 class="section__title text-2xl">Pregunta 4</h2>
+
+          <p class="[max-width:100ch] text-justify mb-4">
+            4. Pida a un usuario la edad y el sexo, para que la computadora le
+            indique si ya puede jubilarse. Tome en cuenta que un hombre se puede
+            jubilar cuando tenga 60 años o más, en cambio, una mujer mayor se
+            jubilara si tiene más de 54 años.
+          </p>
+
+          <input
+            class="h-[40px] p-2"
+            type="text"
+            id="sexo"
+            placeholder="Sexo [M - F]"
+          />
+          <input
+            class="h-[40px] p-2"
+            type="number"
+            id="edad"
+            placeholder="Edad"
+          />
+          <button id="btnVerificar" class="p-2 bg-gray-400 rounded-md">
+            VERIFICAR
+          </button>
+
+          <div class="renderSexo"></div>
+        </div>
+        <div class="section__content">
+          <h2 class="section__title text-2xl">Pregunta 5</h2>
+
+          <p class="[max-width:100ch] text-justify mb-4">
+            5. Una empresa de transportes para el cobro de pasajes según las
+            edades quiere calcular de forma automática el precio que debe cobrar
+            a sus clientes por entrar. El programa debe preguntar al usario la
+            edad del cliente y mostrar el precio de la entrada. Si el cliente es
+            menor de 5 años puede entrar gratis, si tiene entre 5 y 18 años debe
+            pagar 5 soles y si es mayor de 18 años, 10 soles.
+          </p>
+
+          <input
+            type="number"
+            class="h-[40px] p-2"
+            placeholder="Ingresar la Edad"
+            id="inputTransporte"
+          />
+          <button id="btnTransporte" class="p-2 bg-gray-400 rounded-md">
+            VALIDAR
+          </button>
+          <div class="renderTransporte"></div>
+        </div>
+      </section>
+
+      <footer class="footer">Footer</footer>
+    </main>
+    <script src="js/condicionales.js"></script>
+  </body>
+</html>

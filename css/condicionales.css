@@ -1,0 +1,44 @@
+:root {
+  --height-question: 500px;
+}
+body {
+  background-color: #e5e5f7;
+  background: url(https://c.wallhere.com/photos/70/cb/space_dark-83953.png!d)
+    no-repeat;
+
+  background-size: 100%;
+}
+.mb {
+  margin-bottom: 1rem;
+}
+.section__title {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  margin-bottom: 0.5rem;
+}
+
+.main {
+  border-left: 2px rgba(255, 255, 255, 0.2) solid;
+}
+
+.section_ {
+  width: 100%;
+  overflow-y: scroll;
+  height: var(--height-question);
+
+  color: rgb(210, 210, 210);
+}
+.section__content {
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+  height: var(--height-question);
+}
+
+::-webkit-scrollbar {
+  appearance: none;
+  background: var(--color-hover);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-secondary);
+}

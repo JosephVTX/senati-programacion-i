@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/funciones.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Areas</title>
+  </head>
+
+  <body>
+    <main class="main relative">
+      <header class="header">
+        <img class="header__image" src="../img/header.jpg" alt="Header Image" />
+      </header>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../condicionales.html">Condicionales</a></li>
+
+          <li class="relative">
+            <a id="item-funciones" href="../funciones.html">Funciones</a>
+            <ul id="submenu" class="absolute left-0 w-full bg-[#474E68]">
+              <li><a href="operaciones.html">Operaciones</a></li>
+              <li><a href="areas.html">Areas</a></li>
+              <li><a href="diversas.html">Diversas</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Novedades</a></li>
+          <li><a href="#">Contactenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="section_">
+        <div id="area_cuadrado" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN CUADRADO</h2>
+          <img
+            class="h-[240px]"
+            src="https://t1.uc.ltmcdn.com/es/posts/7/1/2/como_encontrar_el_perimetro_de_un_cuadrado_1217_paso_1_600.webp"
+            alt=""
+          />
+          <p class="area_cuadrado_num"></p>
+          <p class="area_cuadrado_resultado"></p>
+        </div>
+
+        <div id="area_circulo" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN CIRCULO</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-del-area-de-un-circulo.png"
+            alt=""
+          />
+          <p class="area_circulo_num"></p>
+          <p class="area_circulo_resultado"></p>
+        </div>
+
+        <div id="area_triangulo" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN TRIANGULO</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-del-area-de-un-triangulo-isosceles.png"
+            alt=""
+          />
+          <p class="area_triangulo_num1"></p>
+          <p class="area_triangulo_num2"></p>
+          <p class="area_triangulo_resultado"></p>
+        </div>
+
+        <div id="area_rectangulo" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN RECTANGULO</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.neurochispas.com/wp-content/uploads/2021/03/formula-de-area-de-un-rectangulo.png"
+            alt=""
+          />
+          <p class="area_rectangulo_num1"></p>
+          <p class="area_rectangulo_num2"></p>
+          <p class="area_rectangulo_resultado"></p>
+        </div>
+
+        <div id="area_cilindro" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN CILINDRO</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/area-de-un-cilindro.png"
+            alt=""
+          />
+          <p class="area_cilindro_num1"></p>
+          <p class="area_cilindro_num2"></p>
+          <p class="area_cilindro_resultado"></p>
+        </div>
+
+        <div id="area_esfera" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UNA ESFERA</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/formula-area-de-una-esfera.png"
+            alt=""
+          />
+          <p class="area_esfera_num1"></p>
+          <p class="area_esfera_resultado"></p>
+        </div>
+
+        <div id="area_cono" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UNA CONO</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.areasyvolumenes.net/wp-content/uploads/2022/09/area-de-un-cono.png"
+            alt=""
+          />
+          <p class="area_cono_num1"></p>
+          <p class="area_cono_num2"></p>
+          <p class="area_cono_resultado"></p>
+        </div>
+
+        <div id="area_prisma" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UN PRISMA</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.areasyvolumenes.net/wp-content/uploads/2022/08/area-de-un-prisma-triangular-regular.png"
+            alt=""
+          />
+          <p class="area_prisma_num1"></p>
+          <p class="area_prisma_num2"></p>
+
+          <p class="area_prisma_resultado"></p>
+        </div>
+
+        <div id="area_piramide" class="section__content">
+          <h2 class="section__title text-2xl">AREA DE UNA PIRAMIDE</h2>
+          <img
+            class="h-[240px]"
+            src="https://www.neurochispas.com/wp-content/uploads/2021/04/formula-del-area-superficial-de-piramides-cuadradas.png"
+            alt=""
+          />
+          <p class="area_piramide_num1"></p>
+          <p class="area_piramide_num2"></p>
+
+          <p class="area_piramide_resultado"></p>
+        </div>
+      </section>
+
+      <footer class="footer">Footer</footer>
+
+      <a href="#menu"
+        ><img
+          class="fixed bottom-2 right-2 bg-white rounded-full h-[80px]"
+          src="img/arrow.svg"
+          alt=""
+      /></a>
+    </main>
+    <script src="../js/areas.js"></script>
+  </body>
+</html>
